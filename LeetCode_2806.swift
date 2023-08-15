@@ -1,3 +1,4 @@
+/*
 QUESTION.2806
 Initially, you have a bank account balance of 100 dollars.
 
@@ -9,10 +10,9 @@ If there is more than one nearest multiple of 10, the largest multiple is chosen
 
 Return an integer denoting your account balance after making a purchase worth purchaseAmount dollars from the store.
 
-Note: 0 is considered to be a multiple of 10 in this problem.
+Note: 0 is considered to be a multiple of 10 in this problem. 
+*/
 
-
-CODE:
 class Solution {
     func accountBalanceAfterPurchase(_ purchaseAmount: Int) -> Int {
         switch (purchaseAmount % 10) {
