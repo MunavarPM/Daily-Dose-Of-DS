@@ -20,6 +20,8 @@ Example 2:
 
 Input: n = 3
 Output: false
+
+100% working code
 */
 
 class Solution {
