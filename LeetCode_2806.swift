@@ -11,6 +11,7 @@ If there is more than one nearest multiple of 10, the largest multiple is chosen
 Return an integer denoting your account balance after making a purchase worth purchaseAmount dollars from the store.
 
 Note: 0 is considered to be a multiple of 10 in this problem. 
+100% Working condition.
 */
 
 class Solution {
