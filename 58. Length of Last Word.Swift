@@ -22,6 +22,7 @@ Example 3:
 Input: s = "luffy is still joyboy"
 Output: 6
 Explanation: The last word is "joyboy" with length 6.
+100% working Condition.
 */
 
 class Solution {
