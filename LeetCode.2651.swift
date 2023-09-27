@@ -3,7 +3,9 @@ You are given a positive integer arrivalTime denoting the arrival time of a trai
 
 Return the time when the train will arrive at the station.
 
-Note that the time in this problem is in 24-hours format. */
+Note that the time in this problem is in 24-hours format.
+Most easiest question you start for beginner crak.
+ */
 
 class Solution {
     func findDelayedArrivalTime(_ arrivalTime: Int, _ delayedTime: Int) -> Int {
