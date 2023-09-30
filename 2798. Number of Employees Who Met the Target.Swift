@@ -26,6 +26,7 @@ Input: hours = [5,1,4,2,2], target = 6
 Output: 0
 Explanation: The company wants each employee to work for at least 6 hours.
 There are 0 employees who met the target.
+100% working properly.
 */
 
 class Solution {
