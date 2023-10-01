@@ -6,7 +6,6 @@ Return the time when the train will arrive at the station.
 Note that the time in this problem is in 24-hours format.
 Most easiest question you start for beginner crak.
 100% working Code...
-
  */
 
 class Solution {
