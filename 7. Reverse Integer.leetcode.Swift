@@ -17,6 +17,7 @@ Example 3:
 
 Input: x = 120
 Output: 21
+100% Working Code.
 */
 
 
