@@ -20,7 +20,6 @@ Example 3:
 Input: day = 15, month = 8, year = 1993
 Output: "Sunday"
  
-
 Constraints:
 
 The given dates are valid dates between the years 1971 and 2100.
