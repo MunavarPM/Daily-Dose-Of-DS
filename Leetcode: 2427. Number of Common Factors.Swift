@@ -15,6 +15,7 @@ Example 2:
 Input: a = 25, b = 30
 Output: 2
 Explanation: The common factors of 25 and 30 are 1, 5.
+
 */
 
 
