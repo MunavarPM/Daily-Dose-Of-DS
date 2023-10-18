@@ -9,6 +9,7 @@ Most easiest question you start for beginner crak.
 
  */
 
+
 class Solution {
     func findDelayedArrivalTime(_ arrivalTime: Int, _ delayedTime: Int) -> Int {
         (arrivalTime + delayedTime) % 24
