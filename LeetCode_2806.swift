@@ -12,6 +12,7 @@ Return an integer denoting your account balance after making a purchase worth pu
 
 Note: 0 is considered to be a multiple of 10 in this problem. 
 100% Working condition.
+
 */
 
 class Solution {
