@@ -24,6 +24,7 @@ Output: false
 100% working code
 */
 
+
 class Solution {
     func divisorGame(_ n: Int) -> Bool {
         if n % 2 == 0 {
