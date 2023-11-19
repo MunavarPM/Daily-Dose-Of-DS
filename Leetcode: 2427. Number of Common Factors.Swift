@@ -4,7 +4,6 @@ Given two positive integers a and b, return the number of common factors of a an
 An integer x is a common factor of a and b if x divides both a and b.
 
  
-
 Example 1:
 
 Input: a = 12, b = 6
