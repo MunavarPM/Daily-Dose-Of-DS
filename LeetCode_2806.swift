@@ -15,6 +15,7 @@ Note: 0 is considered to be a multiple of 10 in this problem.
 
 */
 
+
 class Solution {
     func accountBalanceAfterPurchase(_ purchaseAmount: Int) -> Int {
         switch (purchaseAmount % 10) {
