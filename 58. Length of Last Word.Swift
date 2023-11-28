@@ -5,7 +5,7 @@ A word is a maximal
 substring
  consisting of non-space characters only.
 
- 
+
 
 Example 1:
 
