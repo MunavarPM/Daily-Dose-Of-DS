@@ -6,7 +6,6 @@ You are given an integer array nums representing the data status of this set aft
 Find the number that occurs twice and the number that is missing and return them in the form of an array.
 
 
-
 Example 1:
 
 Input: nums = [1,2,2,4]
