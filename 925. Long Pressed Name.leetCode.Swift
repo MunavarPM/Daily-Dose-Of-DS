@@ -8,6 +8,7 @@ You examine the typed characters of the keyboard. Return True if it is possible 
 Example 1:
 
 
+
 Input: name = "alex", typed = "aaleex"
 Output: true
 Explanation: 'a' and 'e' in 'alex' were long pressed.
