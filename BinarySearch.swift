@@ -19,5 +19,6 @@ func binary(value: Int, arr: [Int]) -> Int? {
     }
     return nil
 }
+
 let arrr = binary(value: 2, arr: arrray)
 print(arrr ?? -1)
