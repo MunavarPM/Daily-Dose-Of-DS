@@ -1,3 +1,4 @@
+
 func insertionSort(array: [Int]) -> [Int] {
     var array = array
     for i in 1..<array.count {
