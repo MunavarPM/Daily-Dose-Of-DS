@@ -1,3 +1,4 @@
+
 func solution(_ S: String) -> String {
     
     let noSpace = S.replacingOccurrences(of: " ", with: "")
