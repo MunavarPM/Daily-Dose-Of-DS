@@ -118,6 +118,7 @@ class LinkedList {
         print(result)
     }
 }
+
 let linkedlist = LinkedList()
 linkedlist.addFront(3)
 linkedlist.addFront(2)
