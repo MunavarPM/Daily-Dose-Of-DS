@@ -22,6 +22,7 @@ class LinkedList {
             print("Node is Empty")
             return nil
         }
+        
         return head!.data
     }
     
