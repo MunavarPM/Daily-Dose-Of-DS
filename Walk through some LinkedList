@@ -1,0 +1,94 @@
+import UIKit
+
+var greeting = "Hello, playground"
+
+
+public class LindList {
+    class Node {
+        var data: Int
+        var next: Node?
+        init(data: Int, next: Node? = nil) {
+            self.data = data
+            self.next = next
+        }
+        
+        /// Just declaring the head & tail.
+        var head: Node?
+        var tail: Node?
+        
+        func addNode(data: Int) {
+            let newNode = Node(data: data)
+            
+            if head == nil {
+                head = newNode
+            } else {
+                tail?.next = newNode
+            }
+            tail = newNode
+        }
+        
+        func deleteNode(data: Int) {
+            var temp = head
+            var prev: Node?
+            
+            /// if the value was first we changing the head that means head deleted
+            if (temp != nil && temp?.data == data) {
+                head = temp?.next
+                return
+            }
+            /// changing the temp
+            while (temp != nil && temp?.data != data) {
+                prev = temp
+                temp = temp?.next
+            }
+            /// no have node return
+            if (temp == nil) {
+                return
+            }
+            /// last value is data
+            if temp?.data == tail?.data {
+                tail = prev
+                tail?.next = nil
+            }
+            prev?.next = temp?.next
+        }
+        
+        func insert(data: Int, nextTo: Int) {
+            var currentNode = head
+            let newNode = Node(data: data)
+                
+            while currentNode != nil && nextTo != currentNode?.data {
+                currentNode = currentNode?.next
+            }
+                
+            if currentNode == nil {
+                return
+            }
+                
+            let nextNode = currentNode?.next
+            currentNode?.next = newNode
+            newNode.next = nextNode
+        }
+        
+        func pringList() {
+            var curentNode = head
+            var result = ""
+            
+            while curentNode != nil {
+                result += "\(curentNode?.data, default: "") -> "
+                curentNode = curentNode?.next
+            }
+            result += "nil"
+            print(result)
+        }
+    }
+}
+
+let list = LindList.Node(data: 1)
+list.addNode(data: 2)
+list.addNode(data: 3)
+list.addNode(data: 4)
+list.addNode(data: 5)
+list.deleteNode(data: 3)
+list.insert(data: 3, nextTo: 4)
+list.pringList()
