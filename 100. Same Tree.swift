@@ -19,6 +19,7 @@ class Solution {
         return isSameTree(p?.left, q?.left) && isSameTree(p?.right, q?.right)
     }
 }
+
 let ss = Solution()
 
 let pNode = TreeNode(1)
